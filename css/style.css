@@ -36,14 +36,17 @@ body{
   list-style: none;
   display: inline;
   padding-right: 10px;
-  color: gray;
   text-transform: uppercase;
+}
+
+.color-gray{
+  color: gray;
 }
 
 /* main */
 .hero{
   height: 600px;
-  margin: 20px 0;
+  margin-bottom: 40px;
   background-image: url(../img/banner.jpg);
 }
 
@@ -79,16 +82,12 @@ body{
   left: 0;
 }
 
-.leadership-title{
-  margin-bottom: 10px;
-}
-
 .leadership-title h2{
   font-size: 30px;
 }
 
 .row{
-  padding: 10px 0;
+  padding: 40px 0;
 }
 
 .row *{
@@ -107,6 +106,13 @@ body{
 .row .img{
   height: 200px;
   width: 100%;
+  margin-bottom: 20px;
+}
+
+.row h3{
+  font-weight: 400;
+  font-size: 1em;
+  margin-bottom: 10px;
 }
 
 .col-left .img{
@@ -122,8 +128,12 @@ body{
 }
 
 /* footer */
-footer{
-  height: 50px;
-  background-color: #8801fe;
-  margin-top: 5px;
+
+.footer{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.color-red{
+  color: red;
 }
