@@ -12,15 +12,34 @@
   clear: both;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container{
   width: 80%;
   margin: 15px auto;
 }
 
+
+
 /* header */
-header{
-  background-color: #e579e6 ;
-  height: 100px;
+.logo img{
+  width: 20%;
+  border-right: 1px solid #e5e5e5;
+  padding-right: 2%;
+}
+
+.nav-bar{
+  margin: 40px 0;
+}
+
+.nav-bar li{
+  list-style: none;
+  display: inline;
+  padding-right: 10px;
+  color: gray;
+  text-transform: uppercase;
 }
 
 /* main */
