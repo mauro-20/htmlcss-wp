@@ -39,6 +39,11 @@ body{
   text-transform: uppercase;
 }
 
+.nav-bar a{
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .color-gray{
   color: gray;
 }
