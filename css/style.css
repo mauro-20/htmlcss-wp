@@ -1,0 +1,67 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common */
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: 15px auto;
+}
+
+/* header */
+header{
+  background-color: #e579e6 ;
+  height: 100px;
+}
+
+/* main */
+.hero{
+  height: 300px;
+  background-color: #e1d67a;
+  margin: 15px 0;
+}
+
+.leadership{
+  background-color: #0087ff;
+}
+
+.leadeship-title{
+  height: 80px;
+  background-color: #abcfe7;
+  margin-bottom: 10px;
+}
+
+.row{
+  padding: 10px 0;
+}
+
+.row *{
+  float: left;
+  height: 300px;
+  background-color: #abcfe7;
+}
+
+.col-left, .col-right{
+  width: 15%;
+}
+
+.col-center{
+  width: calc(70% - 20px);
+  margin: 0 10px;
+}
+
+/* footer */
+footer{
+  height: 50px;
+  background-color: #8801fe;
+  margin-top: 5px;
+}
