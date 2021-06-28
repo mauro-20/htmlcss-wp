@@ -21,8 +21,6 @@ body{
   margin: 15px auto;
 }
 
-
-
 /* header */
 .logo img{
   width: 20%;
@@ -44,19 +42,49 @@ body{
 
 /* main */
 .hero{
-  height: 300px;
-  background-color: #e1d67a;
-  margin: 15px 0;
+  height: 600px;
+  margin: 20px 0;
+  background-image: url(../img/banner.jpg);
 }
 
-.leadership{
-  background-color: #0087ff;
+.hero-text{
+  width: 50%;
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  color: #ffffff;
+  z-index: 1;
 }
 
-.leadeship-title{
-  height: 80px;
-  background-color: #abcfe7;
+.hero-text h1{
+  font-weight: 400;
+}
+
+.img{
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay::after{
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.leadership-title{
   margin-bottom: 10px;
+}
+
+.leadership-title h2{
+  font-size: 30px;
 }
 
 .row{
@@ -65,17 +93,32 @@ body{
 
 .row *{
   float: left;
-  height: 300px;
-  background-color: #abcfe7;
 }
 
 .col-left, .col-right{
-  width: 15%;
+  width: 20%;
 }
 
 .col-center{
-  width: calc(70% - 20px);
-  margin: 0 10px;
+  width: calc(60% - 40px);
+  margin: 0 20px;
+}
+
+.row .img{
+  height: 200px;
+  width: 100%;
+}
+
+.col-left .img{
+  background-image: url(../img/img-1.jpg);
+}
+
+.col-center .img{
+  background-image: url(../img/banner-2.jpg);
+}
+
+.col-right .img{
+  background-image: url(../img/img-2.jpg);
 }
 
 /* footer */
